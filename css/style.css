@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    font-family: 'Heebo', sans-serif;
+    font-size: 18px;
+    background-color: #fff;
+}
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.header-item{
+    display: flex;
+    justify-content: space-between;
+    height: 67px;
+    line-height: 67px;
+}
+.logo p{
+    font-weight: 600;
+    font-size: 2em;
+    letter-spacing: -3px;
+    padding-left: 23px;
+    color: #1298dd;
+}
+.logo span{
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: #8d8d8d;
+    font-size: 0.83em;
+}
+.logo a{
+    text-decoration: none;
+}
+.header-item ul{
+    display: flex;
+}
+.header-item ul > li{
+    list-style-type: none;
+    font-size: 0.85em;
+    font-weight: 200;
+    margin-right: 43px;
+}
+.header-item ul > li:nth-child(3){
+    margin-right: 27px;
+}
+.header-item ul > li:last-child{
+    margin-right: 23px;
+}
+
+.header-item ul > li > a{
+    color: #676767;
+    text-decoration: none;
+}
+.button{
+    border: 1px solid #1784d1;
+    background: linear-gradient(#37b3f8, #1f84e7);
+    box-shadow: inset 0 1px 0 #88d3fb;
+    color: #e3f2fd;
+    padding: 8px 17px;
+    border-radius: 4px;
+}
+.nav{
+    background-image: url(../img/bg-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 534px;
+    box-shadow: inset 0px 1px 3px rgba(0,0,0,0.5);
+    text-align: center;
+    color: #fff;
+}
+.nav h1{
+    font-weight: 600;
+    font-size: 2.6em;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    padding-top: 3.455em;
+}
+.nav h1 > span{
+    font-weight: 200;
+    font-size: 0.923em;
+    letter-spacing: 3px;
+}
+.button-nav {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.845em;
+    padding: 10px 55px;
+    text-shadow: 0.5px 0.866px 0px rgba(0, 0, 0, 0.2);
+    border: 6px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4%;
+    background-clip: padding-box;
+    background-image: -moz-linear-gradient( 90deg, rgb(52,174,34) 0%, rgb(110,210,88) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(52,174,34) 0%, rgb(110,210,88) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(52,174,34) 0%, rgb(110,210,88) 100%);
+    box-shadow: inset 0px 1px 0px 0px rgba(112, 243, 84, 0.75);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-47%);
+    top: 11.2em;
+  }
+.photo {
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #000;
+    border-bottom: 7px solid #36af24;
+    width: 461px;
+    height: 218px;
+    z-index: 23;
+    top: 28.05em;
+    left: 51%;
+    transform: translateX(-50.5%);
+    background-color: #fff;
+    text-align: center;
+    letter-spacing: -0.5px;
+    padding: 20px 10px 0;
+}
+.photo h4{
+    font-weight: 300;
+    font-size: 1.24em;
+    color: #868686;
+    padding-bottom: 1em;
+}
+.photo-item img{
+    margin: 0 4px;
+}
+.photo-item p{
+    font-weight: 300;
+    font-size: 0.8em;
+    color: #929292;
+    text-align: left;
+    padding: 0px 0 12px 4px;
+}
+  
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.item{
+    position: relative;
+    background-color: #ececec;
+}
+.item-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item-title h2{
+    padding-top: 7.9em;
+    font-weight: 300;
+    font-size: 1.455em;
+    line-height: 1.29em;
+    color: #7e7c7c;
+    text-align: center;
+}
+.item-title span{
+    font-size: .85em;
+}
+.item-image {
+    margin-top: 2.6em;
+    position: relative;
+    background-color: #fff;
+    width: 133px;
+    height: 133px;
+    border-radius: 50%;
+}
+.item-1{
+    margin-left: 70px;
+}
+.item-1:first-child{
+    margin-left: 0;
+}
+.item-image img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.item-text{
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.13em;
+    color: #7e7c7c;
+    padding-top: 0.9em;
+    padding-bottom: 4.44em;
+}
+.footer {
+    background-color: #414141;
+    height: 1.72em;
+    line-height: 1.72em;
+}
+.footer h3{
+    font-weight: 300;
+    text-align: center;
+    font-size: 0.8em;
+    color: rgba(255,255,255,0.5);
+}
+
+  
+
+  
